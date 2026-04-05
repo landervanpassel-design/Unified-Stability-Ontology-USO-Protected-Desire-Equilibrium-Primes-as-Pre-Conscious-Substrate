@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Protected Desire Equilibrium and the Unified Stability Ontology"
+authors:
+  - family-names: "van Passel"
+    given-names: "Lander"
+version: "1.0-private"
+date-released: "2026-04"
+repository-code: "https://github.com/landervanpassel-design/protected-desire-equilibrium"
+url: "https://github.com/landervanpassel-design/protected-desire-equilibrium"
+keywords:
+  - alignment
+  - superintelligence
+  - stability
+  - primes
+  - consciousness
+  - destructive-selection
+license: "MIT"
