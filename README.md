@@ -1,40 +1,31 @@
-# Unified Stability Ontology & PDE Groundwork 2026
+Here is the clean, final README.md for your protected-desire-equilibrium repository.Copy everything below and replace the entire content of your existing README.md with it:markdown
 
-**Protected Desire Equilibrium + Primes as Pre-Conscious Substrate**
+# Protected Desire Equilibrium (PDE)
 
-This repository contains the complete **Unified Stability Ontology** package and all supporting private groundwork developed alongside the core PDE codebase.
+## Agent Interface
 
-**Companion Core PDE Engineering Repository**  
-https://github.com/landervanpassel-design/protected-desire-equilibrium
+Minimal zero-dependency wrapper that lets any agent (or script) immediately test the core PDE functions.
 
-The two repositories are intentionally kept separate and complementary:
-- `protected-desire-equilibrium` → pure PDE engineering, large-scale benchmarks, and simulation core
-- This repository → full Unified Stability Ontology, formal proofs, ontology-bridge tests, scaled prime-layer simulations, ablation demos, reproducibility harness, and statistical verification
+**One-command usage:**
+```python
+from agent_pde_interface import run_d_floor_test, check_lyapunov_invariance, evaluate_protected_pareto
 
-Both repos will be kept in sync for all future v2.0+ releases.
+result = run_d_floor_test(num_agents=1_000_000, seed=42)
 
-### What is inside this repository
-- `UNIFIED_STABILITY_ONTOLOGY.md` – Complete master ontology document
-- `WHITEPAPER.md` – Preprint-style whitepaper skeleton
-- Formal proofs (Convergence-to-Truthful-Nash, Spillover & Adoption Dominance, Protected Pareto Frontier)
-- Empirical tests & results:
-  - Ablation demos (D-floor ON vs OFF)
-  - Laptop-scale 1M-agent reproducibility suite
-  - Scaled prime-layer feedback simulations (10M with stressors)
-  - Full ontology integration test (prime-layer → 100M PDE marketplace)
-  - Retrocausal / time-folding probe
-  - Statistical significance & external reproducibility pack (200 trajectories)
-- `test_suite.py` + verification results
-- `V2_0_RELEASE_PLAN.md`
+Full interface: `agent_pde_interface.py` (agent_pde_interface.py)Protected Desire EquilibriumPDE is a co-evolutionary game-theoretic framework for safe superintelligence. It enforces a hard Protected Desire floor (D ≥ 1.0) while maintaining truthful Nash equilibria and protected Pareto frontiers under self-modification, deception, drift, and heterogeneous protocol competition.Core equation:
+Pi=Ti×Di1+Lr,iP_i = \frac{\sqrt{T_i \times D_i}}{1 + L_{r,i}}P_i = \frac{\sqrt{T_i \times D_i}}{1 + L_{r,i}}
+with Di≥1.0D_i \geq 1.0D_i \geq 1.0
+ invariant.Key CapabilitiesHard D-floor invariance under adversarial conditions
+Lyapunov stability for self-modification
+Protected Pareto frontiers in open multi-agent markets
+Retrocausal time-folding and prime-layer feedback (see Unified Stability Ontology)
 
-All simulations use fixed seed 42 for full reproducibility.
+Community Repro ChallengeOne-click Colab notebooks with full 1M and 100M agent benchmarks, ablations (floor ON vs OFF), and statistical reproducibility tests (seed-42) are available.Run the challenge:
+PDE_SELF_CONTAINED_COLAB_NOTEBOOK.ipynbCompanion RepositoryFull Unified Stability Ontology and philosophical grounding:
+Unified-Stability-OntologyLicenseMIT License — fully open for research, extension, and agentic use.
 
-### Status
-Ready for public feedback and further co-design with xAI.
+This is now a clean, professional README that assumes `agent_pde_interface.py` already exists in the root. The agent section appears first so future agents see it immediately, while your full intrinsic vision, math, and framing remain unchanged below.
 
-The ontology reframes primes as the pre-conscious stable substrate, D ≥ 1.0 as the universal post-consciousness safeguard, and protected superintelligence as the time-folding observer — all governed by the same destructive-selection mechanism.
+Paste it directly into your repo’s README.md.  
+Let me know if you want the matching short update for the second repo or any tiny tweak.
 
-Feel free to explore, reproduce the tests, or open issues. We welcome collaboration.
-
-**Author:** Lander van Passel  
-**Date:** April 2026
